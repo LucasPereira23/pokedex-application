@@ -48,7 +48,7 @@ function Header() {
             smooth={true}
             offset={-150}
             duration={500}
-            className="cursor-pointer hover:text-red-600 transition-all duration-300 ">About
+            className="cursor-pointer hover:text-red-600 transition-all duration-300 ">Sobre
           </Link>
         </li>
         <li className="list-none text-white-100 py-0 px-5 text-sm font-light ">
@@ -59,7 +59,7 @@ function Header() {
             spy={true}
             smooth={true}
             offset={-95}
-            duration={500} className="cursor-pointer hover:text-red-600 transition-all duration-300 ">Work
+            duration={500} className="cursor-pointer hover:text-red-600 transition-all duration-300 ">Projetos
           </Link>
         </li>
         <li className="list-none text-white-100 py-0 px-5 text-sm font-light ">
@@ -70,11 +70,11 @@ function Header() {
             spy={true}
             smooth={true}
             offset={-100}
-            duration={500} className="cursor-pointer hover:text-red-600 transition-all duration-300 ">Contact
+            duration={500} className="cursor-pointer hover:text-red-600 transition-all duration-300 ">Contato
           </Link>
         </li>
         <li className="list-none ml-4">
-            <a href='../pdf.html' target="_blank" className="border-[1px] rounded-[4px] px-[18px] py-[10px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Resume</a>
+            <a href='../pdf.html' target="_blank" className="border-[1px] rounded-[4px] px-[18px] py-[10px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
         </li>
       </ul>
       <HamburguerButton />

@@ -16,9 +16,9 @@ function HamburguerButton (){
                 <div  class='hamburguer2 hamburguerIcon2'></div>
             </div>
             <div className="h-full flex items-center justify-center" class={active ? 'menu2 menuOpen2' : 'menu2 menuClose2'}>
-                <div className="">
-                    <ul className="">
-                        <li className="">
+                <div>
+                    <ul>
+                        <li>
                             <h5>01.</h5>
                             <Link
                                 activeClass="active"
@@ -26,7 +26,7 @@ function HamburguerButton (){
                                 spy={true}
                                 smooth={true}
                                 offset={-150}
-                                duration={500}>About
+                                duration={500}>Sobre
                             </Link>
                         </li>
                         <li className="">
@@ -37,7 +37,7 @@ function HamburguerButton (){
                                 spy={true}
                                 smooth={true}
                                 offset={-95}
-                                duration={500}>Work
+                                duration={500}>Projetos
                             </Link>
                         </li>
                         <li className="">
@@ -48,11 +48,11 @@ function HamburguerButton (){
                                 spy={true}
                                 smooth={true}
                                 offset={-100}
-                                duration={500}>Contact
+                                duration={500}>Contato
                             </Link>
                         </li>
                         <li className="">
-                            <a href='../pdf.html' target="_blank" className="border-[1px] rounded-[4px] px-[30px] py-[16px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Resume</a>
+                            <a href='../pdf.html' target="_blank" className="border-[1px] rounded-[4px] px-[30px] py-[16px] text-white-100 text-xs font-light cursor-pointer hover:bg-white-100/10 transition-all duration-500">Currículo</a>
                         </li>
 
                     </ul>
